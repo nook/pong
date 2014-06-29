@@ -1,72 +1,10 @@
 Pong
 =========
+Pong is an app to track the Ping-Pong activities of NOOK team members, to ensure that there can be no argument as to who is the best.
+
 
 This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
 provided by the [RailsApps Project](http://railsapps.github.io/).
-
-Diagnostics
--
-
-This application was built with recipes that are NOT known to work together.
-
-This application was built with preferences that are NOT known to work
-together.
-
-If the application doesn’t work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues)
-and include these diagnostics:
-
-We’d also like to know if you’ve found combinations of recipes or
-preferences that do work together.
-
-Recipes:
-
-* core
-* deployment
-* devise
-* email
-* extras
-* frontend
-* gems
-* git
-* init
-* learn_rails
-* locale
-* omniauth
-* pages
-* rails_bootstrap
-* rails_devise
-* rails_devise_pundit
-* rails_foundation
-* rails_omniauth
-* rails_signup_download
-* railsapps
-* readme
-* roles
-* setup
-* tests
-
-Preferences:
-
-* git: true
-* apps4: none
-* dev_webserver: webrick
-* prod_webserver: passenger
-* database: sqlite
-* templates: slim
-* tests: rspec
-* continuous_testing: guard
-* frontend: bootstrap3
-* email: none
-* authentication: none
-* authorization: none
-* form_builder: simple_form
-* pages: home
-* locale: none
-* quiet_assets: true
-* better_errors: true
-* pry: true
-* ban_spiders: true
-* deployment: capistrano3
 
 Ruby on Rails
 ---
@@ -81,44 +19,29 @@ Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.
 Database
 ---
 
-This application uses SQLite with ActiveRecord.
+This application uses SQLite with ActiveRecord for Development, likely something better for non-dev environments.
 
 Development
--
+---
 
 -   Template Engine: Slim
 -   Testing Framework: RSpec
 -   Front-end Framework: Bootstrap 3.0 (Sass)
 -   Form Builder: SimpleForm
--   Authentication: None
--   Authorization: None
--   Admin: None
 
-
-
-
-
-
- delivery is disabled in development.
 
 Getting Started
+---
+Nothing to say yet
 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 Documentation and Support
-
+---
 
 This is the only documentation.
 
 #### Issues
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-Similar Projects
--
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 Contributing
 --
@@ -136,10 +59,8 @@ me and I’ll add a note to the README so that others can find your work.
 
 Credits
 --
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Matt Holloway - NOOK Media, LLC.
 
 License
 --
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+MIT
