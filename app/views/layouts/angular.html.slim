@@ -1,0 +1,39 @@
+doctype html
+html lang="en" ng-app="pong" 
+  head
+    meta charset="utf-8" 
+      meta content="IE=Edge,chrome=1" http-equiv="X-UA-Compatible" 
+        meta content="width=device-width, initial-scale=1.0" name="viewport" 
+          title= content_for?(:title) ? yield(:title) : "NOOK Pong"
+          = csrf_meta_tags
+          = stylesheet_link_tag "application", :media => "all"
+  body
+    .navbar.navbar-default
+      .container
+        .navbar-header
+          a.navbar-brand href="#" 
+            h1
+              a href="/"  Pong
+        .navbar-collapse.collapse
+          ul.nav.navbar-nav.navbar-right.user-panel-container
+            li.active
+              /! user info will go here soon
+        /! /.nav-collapse
+    #primary.container
+      .row
+        #main ng-view="" 
+    /! /container
+
+    div ng-controller="GamesController"
+      div ng-repeat="game in games" 
+        div class="result-container"
+          div class="date"
+            p Date: {{game.date}}
+          div class="game"
+            p Game: {{game.player1.name}} scored {{game.player1.score}} versus {{game.player2.name}} 
+                who scored {{game.player2.score}}
+    #f
+      .container
+        .row
+          p Built by LogicWerx for NOOK Media LLC.
+    = javascript_include_tag "application"

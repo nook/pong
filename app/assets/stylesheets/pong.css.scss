@@ -1,0 +1,26 @@
+// Place all the styles related to the pong controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*
+ * Pong specific styles
+ */
+
+.game {
+  height: 2em; 
+  color: rgb(0,120,25);
+}
+
+.date {
+	font-weight: bold;
+	font-size: large;
+}
+.result-container {
+  text-align: center;
+  margin: 0.5em 0 3em 0;
+
+  a {
+    color: black;
+  }
+
+}
