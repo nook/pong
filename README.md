@@ -13,6 +13,8 @@ This application requires:
 
 -   Ruby
 -   Rails
+-   Angular JS
+-   Twitter Bootstrap
 
 Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
 
